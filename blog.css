@@ -1,0 +1,70 @@
+*{
+  color: #fff;
+}
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+
+/* strong { 
+  color: burlywood;
+} */
+a{
+ color : #d17676; 
+}
+
+footer{
+background: #38393bcb;
+}
+
+
+.blog-one-img {
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.6)),url(./background-blog.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.blog-2-img{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.6)),url(./background-blog3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.blog-3-img{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.6)),url(./background-blog2.jpg);
+  background-size: cover;
+  background-position: center;
+}
